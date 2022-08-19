@@ -6,6 +6,8 @@
   "scripts": {
     "start": "node index.js",
     "dev": "nodemon index.js",
+    "lint": "eslint .",
+    "lint:fix": "eslint --fix --ext .js,.jsx .",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
@@ -18,6 +20,10 @@
     "morgan": "^1.10.0"
   },
   "devDependencies": {
-    "nodemon": "^2.0.19"
+    "babel-eslint": "^10.1.0",
+    "eslint": "^8.22.0",
+    "eslint-plugin-react": "^7.30.1",
+    "nodemon": "^2.0.19",
+    "prettier-eslint": "^15.0.1"
   }
 }
